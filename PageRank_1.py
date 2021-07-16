@@ -88,4 +88,4 @@ plt.show()"""
 pr=nx.pagerank(G,0.85)
 print(sorted(pr.items(), key = lambda kv:(kv[1], kv[0])))
 
-#print(pr)
+##print(pr)
